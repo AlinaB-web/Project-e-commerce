@@ -150,18 +150,5 @@ textarea{
   main{
     flex-direction: column;
   }
-article {
-  display: inline block;
-  margin: 100px;
-  padding: 15px;
-  box-shadow: 2px 2px#00000011;
-  text-align: center;
+}
 
-}
-article img {
-  width: 150px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-}
