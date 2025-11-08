@@ -21,9 +21,9 @@ nav{
 
 nav a{
     text-decoration: none;
-    margin: 10px;
+    margin: 5px;
     color: black;
-    
+    font-size: 18px;
 }
 .search-box {
     background-color: lavender;
@@ -151,5 +151,6 @@ textarea{
     flex-direction: column;
   }
 }
+
 
 
