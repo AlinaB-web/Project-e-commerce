@@ -152,7 +152,3 @@ textarea{
   }
 }
 
-@media (min-width: 769px) and (max-width:1024px){
-  article img{
-    width: 45%;
-  }
