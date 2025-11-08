@@ -142,7 +142,7 @@ textarea{
   width: 200px;
   padding: 5px;
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   header {
     text-align: center;
     flex-direction: column;
@@ -152,3 +152,7 @@ textarea{
   }
 }
 
+@media (min-width: 769px) and (max-width:1024px){
+  article img{
+    width: 45%;
+  }
