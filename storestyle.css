@@ -1,0 +1,153 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+header{
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    
+   
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+}
+.search-box {
+    background-color: lavender;
+    text-align: right;
+    padding: 20px;
+    
+ 
+}
+.search-box input{
+     padding: 15px;
+     width: 30%;
+    height: 25px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 35px;
+    border: 1px solid rgb(202, 183, 183);
+    
+}
+main{
+    background-color: aliceblue;
+    display: flex;
+}
+   
+article {
+  display: inline block;
+  margin: 100px;
+  padding: 15px;
+  box-shadow: 2px 2px#00000011;
+  text-align: center;
+
+}
+article img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+article h3 {
+  margin: 10px;
+  font-size: 17px;
+}
+
+.btn {
+  display: inline-block;
+  background: grey;
+  color: white;
+  padding: 8px;
+  border-radius: 9px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #555;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 1px;
+}
+section h2{
+    background-color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.price{
+    color: red;
+    margin: 10px;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 9px;
+}
+.cloth{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ justify-content: center;
+}
+#about{
+background-color: antiquewhite;
+padding: 40px;
+text-align: center;
+}
+h3{
+ font-size: 21px;
+}
+#contact{
+  text-align: center;
+}
+form{
+  background-color: lightblue;
+  color: black;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 20px;
+  font-style: italic;
+}
+input{
+  margin: 8px 0;
+  width: 70%;
+  height: 25px;
+}
+textarea{
+  margin: 8px 0;
+  height: 100px;
+  width: 70%;
+}
+.form-btn{
+  background-color: black;
+  width: 200px;
+  padding: 5px;
+}
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    flex-direction: column;
+  }
+  main{
+    flex-direction: column;
+  }
+}
