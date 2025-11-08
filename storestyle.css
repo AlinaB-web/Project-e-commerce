@@ -56,8 +56,8 @@ article {
 
 }
 article img {
-  width: 200px;
-  height: 250px;
+  width: 50%;
+ 
   object-fit: cover;
   border-radius: 10px;
 
@@ -154,6 +154,7 @@ textarea{
     flex-direction: column;
   }
 }
+
 
 
 
