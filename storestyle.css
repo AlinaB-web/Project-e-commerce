@@ -142,7 +142,7 @@ textarea{
   width: 200px;
   padding: 5px;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   header {
     text-align: center;
     flex-direction: column;
@@ -150,4 +150,5 @@ textarea{
   main{
     flex-direction: column;
   }
+
 }
