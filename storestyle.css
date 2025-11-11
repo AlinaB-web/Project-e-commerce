@@ -153,9 +153,10 @@ textarea{
     flex-direction: column;
   }
     .search-box input{
-        width: 30px
+        align-item: centre;
     }
 }
+
 
 
 
