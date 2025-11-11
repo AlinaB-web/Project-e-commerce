@@ -51,7 +51,6 @@ article {
   display: inline block;
   margin: 100px;
   padding: 15px;
-  box-shadow: 2px 2px#00000011;
   text-align: center;
 
 }
@@ -163,6 +162,7 @@ textarea{
         margin: 20px;
     }
 }
+
 
 
 
